@@ -67,5 +67,7 @@ INSERT INTO emp09(num, name)
 VALUES(emp09_num_seq.nextval, '남문기');
 
 SELECT * FROM emp09;
+
+SELECT * FROM departments ORDER BY department_id;
     
     
